@@ -11,7 +11,5 @@ import java.util.Optional;
 @Repository
 public interface TokenRepo extends JpaRepository<Token, Long> {
 
-
     Token findByValue(String value);
-
 }
