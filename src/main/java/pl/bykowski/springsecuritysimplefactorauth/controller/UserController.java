@@ -64,6 +64,4 @@ public class UserController {
         appUserRepo.save(appUser);
         return "hello";
     }
-
-
 }
